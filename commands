@@ -1,0 +1,6 @@
+cd searchweb/chrome
+rm searchweb.jar
+zip -r searchweb.jar content
+cd ..
+rm searchweb.xpi
+zip -r searchweb.xpi chrome chrome.manifest install.rdf

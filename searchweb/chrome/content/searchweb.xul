@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<overlay id="searchweb" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://searchweb/content/searchweb.js">
+</script>
+
+<popup id="contentAreaContextMenu">
+  <menuitem id="searchweb" label="TWITTER PHOTO SEARCH" insertafter="context-reload" oncommand="searchweb();"/>
+</popup>
+
+</overlay>
